@@ -1,0 +1,6 @@
+# Type-only dev install of pi; none of its install scripts are needed.
+allowBuilds:
+  "@google/genai": false
+  protobufjs: false
+# pi supplies these at runtime; devDependencies pin them for types.
+autoInstallPeers: false
